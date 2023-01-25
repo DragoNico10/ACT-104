@@ -12,7 +12,7 @@ cv2.putText(img, 'Jupiter', (480, 50), font, 2, (88, 132, 191))
 cv2.putText(img, 'Saturn', (740,320), font, 1.5, (143, 167, 202))
 cv2.putText(img, 'Uranus', (950, 300), font, 1, (236, 233, 195))
 cv2.putText(img, 'Neptune', (1090, 300), font, 1, (220, 86, 58))
-cv2.imshow('',img)
+cv2.imshow('ACT-104',img)
 
 if tkinter.messagebox.askyesno('ACT-104','Save image?'):
     cv2.imwrite('solar-system(with text).jpg', img)
