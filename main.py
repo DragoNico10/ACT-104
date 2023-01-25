@@ -1,5 +1,6 @@
 import cv2
 import tkinter.messagebox
+#Change font here
 font=cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
 img=cv2.imread('solar-system.jpg')
 cv2.putText(img, 'Sun', (100,80), font, 2, (27,111,237))
